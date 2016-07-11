@@ -1,0 +1,78 @@
+* {
+    font-family: "Open Sans";
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.purple-bk{
+    background-color: #A971CC !important;
+}
+.purple-l{
+    background-color: #C0A7CE !important;
+}
+.orange-bk{
+    background-color: #FFA231 !important;
+}
+.orange-txt{
+    color: #FFA231 !important;
+}
+.purple-txt{
+    color: #A971CC !important
+}
+.bk-record{
+    background-image: url("record.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+
+}
+.bk-runway{
+    background-image: url("runway-u.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.bk-tech{
+    background-image: url("sound2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.bk-bonfire{
+    background-image: url("beach_bonfire.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.t5{opacity: .5;}
+.t6{opacity: .6;}
+.t7{opacity: .7;}
+.t8{opacity: .8;}
+.t9{opacity: .9;}
+.material-icons{
+    color: #A971CC;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+}
